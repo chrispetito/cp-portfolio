@@ -1,22 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+        <p style={{ fontSize: 25, marginBottom: 0 }}>
+          Chris Petito
         </p>
+        <p> Portfolio coming soon.</p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/chrispetito"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Test Link
+          <i style={{ marginRight: 5}} className="fab fa-github"></i>My GitHub
         </a>
       </header>
     </div>
