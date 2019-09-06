@@ -10,7 +10,7 @@ class AboutMe extends React.Component {
   render() {
     return (
       <Card>
-        <h1 className='about-me-title'>About Me</h1>
+        <h3 className='about-me-title'>About Me</h3>
         <p className='about-me-text'>This is the about me section. More coming soon!</p>
       </Card>
     );
