@@ -12,7 +12,7 @@
 }
 .cp-favicon {
     height: 2rem;
-    padding-right: 0.4rem;
+    padding-right: 0.7rem;
 }
 .navbar-title {
     display: flex;
@@ -21,6 +21,7 @@
 .cp-title {
     margin: 0;
     font-size: 20px;
+    font-family: 'Lato', sans-serif;
 }
 .rs-navbar {
     width: 100%;
@@ -31,4 +32,17 @@
 }
 .navbar-brand #text {
     height: 100%;
+}
+#dropdown-icon {
+    color: #999999;
+    margin-right: 0.8rem;
+    width: 0.8rem;
+}
+#nav-icon {
+    margin-right: 5px;
+}
+a.nav-link {
+    /* border: 1px solid blue ; */
+    padding: 0.5rem 2rem;
+    width: 100px;
 }

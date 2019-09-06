@@ -26,33 +26,30 @@ class NavBar extends React.Component {
     this.setState({
       isOpen: !this.state.isOpen
     });
-  }
+  };
 
-  handleScroll = (e) => {
-
-  }
   render() {
     return (
       <div>
         <Navbar color="light" light expand="md" className="rs-navbar">
-          <div className='navbar-title'>
+          <div className="navbar-title">
             {" "}
             <img src={favicon} alt="cp-favion" className="cp-favicon"></img>
-            <p className='cp-title'>Chris Petito</p>
+            <p className="cp-title">Chris Petito</p>
           </div>
 
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/">Contact</NavLink>
+                <NavLink href="/"><i id='nav-icon' className="far fa-id-badge"></i>Contact</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink
                   href="https://github.com/chrispetito"
                   target="_onblank"
                 >
-                  GitHub
+                  <i id='nav-icon' className="fab fa-github"></i>GitHub
                 </NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
@@ -60,10 +57,18 @@ class NavBar extends React.Component {
                   Options
                 </DropdownToggle>
                 <DropdownMenu right>
-                  <DropdownItem>Projects</DropdownItem>
-                  <DropdownItem>Resume</DropdownItem>
+                  <DropdownItem>
+                  <i id='dropdown-icon' className="fas fa-circle-notch"></i>
+                    Projects
+                  </DropdownItem>
+                  <DropdownItem>
+                  <i id='dropdown-icon' className="fas fa-info-circle"></i>Resume
+                  </DropdownItem>
                   <DropdownItem divider />
-                  <DropdownItem>About Me</DropdownItem>
+                  <DropdownItem>
+                  <i id='dropdown-icon' className="fas fa-user-circle"></i>
+                    About Me
+                  </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
             </Nav>
