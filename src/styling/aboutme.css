@@ -11,6 +11,5 @@ div.card {
     justify-content: flex-start;
 }
 .about-me-text {
-    display: flex;
-    justify-content: flex-start;
+    text-align: left;
 }
