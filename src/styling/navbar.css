@@ -1,11 +1,27 @@
 .navbar-div {
-    color: red;
-    height: 3rem;
+    color: black;
+    /* height: 3rem; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 1rem;
+    padding: 0.5rem 1rem;
+}
+.navbar-div nav {
+    border: 1px solid red;
+    width: 100%;
 }
 .cp-navbar {
     height: 2rem;
+    padding-right: 0.4rem;
+}
+.navbar-title {
+    display: flex;
+    align-items: center;
+}
+.cp-title {
+    margin: 0;
+    font-size: 20px;
+}
+.rs-navbar {
+    width: 100%;
 }
