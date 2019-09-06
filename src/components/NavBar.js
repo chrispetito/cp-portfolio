@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   Collapse,
   Navbar,
@@ -10,52 +10,60 @@ import {
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
-  DropdownItem } from 'reactstrap';
-  import '../styling/navbar.css'
+  DropdownItem
+} from "reactstrap";
+import "../styling/navbar.css";
+import favicon from "../assets/cpfavicon.png";
 
 class NavBar extends React.Component {
   constructor(props) {
     super(props);
-
-    this.toggle = this.toggle.bind(this);
     this.state = {
       isOpen: false
     };
   }
-  toggle() {
+  toggle = () => {
     this.setState({
       isOpen: !this.state.isOpen
     });
   }
+
+  handleScroll = (e) => {
+
+  }
   render() {
     return (
       <div>
-        <Navbar color="light" light expand="md" className='rs-navbar'>
-          <NavbarBrand href="/">reactstrap</NavbarBrand>
+        <Navbar color="light" light expand="md" className="rs-navbar">
+          <div className='navbar-title'>
+            {" "}
+            <img src={favicon} alt="cp-favion" className="cp-favicon"></img>
+            <p className='cp-title'>Chris Petito</p>
+          </div>
+
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/components/">Components</NavLink>
+                <NavLink href="/">Contact</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+                <NavLink
+                  href="https://github.com/chrispetito"
+                  target="_onblank"
+                >
+                  GitHub
+                </NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
                   Options
                 </DropdownToggle>
                 <DropdownMenu right>
-                  <DropdownItem>
-                    Option 1
-                  </DropdownItem>
-                  <DropdownItem>
-                    Option 2
-                  </DropdownItem>
+                  <DropdownItem>Projects</DropdownItem>
+                  <DropdownItem>Resume</DropdownItem>
                   <DropdownItem divider />
-                  <DropdownItem>
-                    Reset
-                  </DropdownItem>
+                  <DropdownItem>About Me</DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
             </Nav>

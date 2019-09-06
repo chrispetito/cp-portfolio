@@ -10,7 +10,7 @@
     border: 1px solid red;
     width: 100%;
 }
-.cp-navbar {
+.cp-favicon {
     height: 2rem;
     padding-right: 0.4rem;
 }
@@ -24,4 +24,11 @@
 }
 .rs-navbar {
     width: 100%;
+}
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+.navbar-brand #text {
+    height: 100%;
 }
