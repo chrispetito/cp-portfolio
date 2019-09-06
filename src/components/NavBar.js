@@ -54,7 +54,7 @@ class NavBar extends React.Component {
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
-                  Options
+                  Other
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem>
