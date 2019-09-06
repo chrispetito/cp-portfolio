@@ -1,11 +1,48 @@
 .navbar-div {
-    color: red;
-    height: 3rem;
+    color: black;
+    /* height: 3rem; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 1rem;
+    padding: 0.5rem 1rem;
 }
-.cp-navbar {
+.navbar-div nav {
+    border: 1px solid red;
+    width: 100%;
+}
+.cp-favicon {
     height: 2rem;
+    padding-right: 0.7rem;
+}
+.navbar-title {
+    display: flex;
+    align-items: center;
+}
+.cp-title {
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+}
+.rs-navbar {
+    width: 100%;
+}
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+.navbar-brand #text {
+    height: 100%;
+}
+#dropdown-icon {
+    color: #999999;
+    margin-right: 0.8rem;
+    width: 0.8rem;
+}
+#nav-icon {
+    margin-right: 5px;
+}
+a.nav-link {
+    /* border: 1px solid blue ; */
+    padding: 0.5rem 2rem;
+    width: 100px;
 }
