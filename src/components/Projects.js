@@ -24,7 +24,6 @@ class Projects extends React.Component {
           </a>
           .
         </p>
-        <Card>
           <div className="ind-project-div">
             <img
               className="project-img"
@@ -55,7 +54,7 @@ class Projects extends React.Component {
                   href="https://github.com/labs14-lambda-app-store"
                   target="_onblank"
                 >
-                  See GitHub Repository
+                  View GitHub Repository
                 </a>
                 <a
                   className="ind-link"
@@ -96,14 +95,14 @@ class Projects extends React.Component {
               <div className="link-div">
                 <a
                   className="ind-link"
-                  href="https://github.com/labs14-lambda-app-store"
+                  href="https://github.com/pintereach-pmltr"
                   target="_onblank"
                 >
-                  See GitHub Repository
+                  View GitHub Repository
                 </a>
                 <a
                   className="ind-link"
-                  href="https://lambdaappstore.org"
+                  href="https://pintereach1.netlify.com/"
                   target="_onblank"
                 >
                   View Live Website
@@ -140,14 +139,14 @@ class Projects extends React.Component {
               <div className="link-div">
                 <a
                   className="ind-link"
-                  href="https://github.com/labs14-lambda-app-store"
+                  href="https://github.com/itsdesignyourlife"
                   target="_onblank"
                 >
-                  See GitHub Repository
+                  View GitHub Repository
                 </a>
                 <a
                   className="ind-link"
-                  href="https://lambdaappstore.org"
+                  href='https://designyourlife.netlify.com/'
                   target="_onblank"
                 >
                   View Live Website
@@ -155,7 +154,7 @@ class Projects extends React.Component {
               </div>
             </div>
           </div>
-        </Card>
+
       </Card>
     );
   }
