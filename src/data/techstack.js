@@ -1,67 +1,19 @@
 const techstack = [
   { name: "HTML5", iconClass: "fab fa-html5" },
-  { name: "blah", iconClass: "blah" }
+  { name: "CSS3", iconClass: "fab fa-css3-alt" },
+  { name: "JavaScript", iconClass: "fab fa-js-square" },
+  { name: "React", iconClass: "fab fa-react" },
+  { name: "Node.js", iconClass: "fab fa-node-js" },
+  { name: "Express.js", iconClass: "fas fa-code" },
+  { name: "REST API", iconClass: "fas fa-code" },
+  { name: "Reacstrap", iconClass: "fab fa-react" },
+  { name: "Material UI", iconClass: "fas fa-code" },
+  { name: "Jest", iconClass: "fas fa-code" },
+  { name: "SQLite", iconClass: "fas fa-database" },
+  { name: "PostgreSQL", iconClass: "fas fa-database" },
+  { name: "Netlify", iconClass: "fas fa-server" },
+  { name: "Heroku", iconClass: "fas fa-server" },
+
 ];
 
 export default techstack;
-
-{
-  /* <div className="tech-badge-div">
-<div className="ind-tech-badge">
-  <i className="fab fa-html5"></i>
-  <p>HTML5</p>
-</div>
-<div className="ind-tech-badge">
-<i className="fab fa-css3-alt"></i>
-  <p>CSS3</p>
-</div>
-<div className="ind-tech-badge">
-<i className="fab fa-js-square"></i>
-  <p>JavaScript</p>
-</div>
-<div className="ind-tech-badge">
-<i className="fab fa-react"></i>
-  <p>React</p>
-</div>
-<div className="ind-tech-badge">
-<i className="fab fa-node-js"></i>
-  <p>Node.js</p>
-</div>
-<div className="ind-tech-badge">
-<i className="fas fa-code"></i>
-  <p>Express.js</p>
-</div>
-<div className="ind-tech-badge">
-<i className="fas fa-code"></i>
-  <p>REST API</p>
-</div>
-<div className="ind-tech-badge">
-<i className="fab fa-react"></i>
-  <p>Reactstrap</p>
-</div>
-<div className="ind-tech-badge">
-<i className="fas fa-code"></i>
-  <p>Material UI</p>
-</div>
-<div className="ind-tech-badge">
-<i className="fas fa-code"></i>
-  <p>Jest</p>
-</div>
-<div className="ind-tech-badge">
-<i className="fas fa-database"></i>
-  <p>SQLite3</p>
-</div>
-<div className="ind-tech-badge">
-<i className="fas fa-database"></i>
-  <p>PostgreSQL</p>
-</div>
-<div className="ind-tech-badge">
-<i className="fas fa-server"></i>
-  <p>Netlify</p>
-</div>
-<div className="ind-tech-badge">
-<i className="fas fa-server"></i>
-  <p>Heroku</p>
-</div>
-</div> */
-}
