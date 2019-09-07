@@ -41,14 +41,16 @@ class NavBar extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/"><i id='nav-icon' className="far fa-id-badge"></i>Contact</NavLink>
+                <NavLink href="https://www.linkedin.com/in/chris-petito-349499184/">
+                  <i id="nav-icon" className="fab fa-linkedin"></i>LinkedIn
+                </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink
                   href="https://github.com/chrispetito"
                   target="_onblank"
                 >
-                  <i id='nav-icon' className="fab fa-github"></i>GitHub
+                  <i id="nav-icon" className="fab fa-github"></i>GitHub
                 </NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
@@ -57,16 +59,17 @@ class NavBar extends React.Component {
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem>
-                  <i id='dropdown-icon' className="fas fa-circle-notch"></i>
+                    <i id="dropdown-icon" className="fas fa-circle-notch"></i>
                     Projects
                   </DropdownItem>
                   <DropdownItem>
-                  <i id='dropdown-icon' className="fas fa-info-circle"></i>Resume
+                    <i id="dropdown-icon" className="fas fa-info-circle"></i>
+                    Resume
                   </DropdownItem>
                   <DropdownItem divider />
                   <DropdownItem>
-                  <i id='dropdown-icon' className="fas fa-user-circle"></i>
-                    About Me
+                    <i id="dropdown-icon" className="fas fa-id-badge"></i>
+                    Contact Me
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
