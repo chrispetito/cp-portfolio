@@ -6,6 +6,7 @@
 }
 .ind-project-div {
     display: flex;
+    margin-bottom: 5%;
 }
 .project-img {
     width: 20%;
