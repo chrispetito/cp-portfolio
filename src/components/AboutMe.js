@@ -26,7 +26,7 @@ class AboutMe extends React.Component {
         </p>
         <p className="about-me-text">
           My goal is to find a position on a team that builds software that
-          people care about. I want to contribute to that process, and look
+          people care about. I am eager to contribute to the software development process, and look
           forward to working with others to create valuable, meaningful
           products.
         </p>

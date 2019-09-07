@@ -9,7 +9,7 @@
     flex-wrap: wrap;
 }
 .ind-tech-badge {
-    border: 1px solid black;
+    border: 1px solid #c4c4c4;
     /* width: 100px; */
     display: flex;
     align-items: center;
@@ -17,6 +17,7 @@
     margin-right: 10px;
     margin-bottom: 10px;
     border-radius: 3px;
+    color: #6f6f6f
 }
 .ind-tech-badge p {
     margin: 0;
