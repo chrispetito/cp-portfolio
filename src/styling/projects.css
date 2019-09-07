@@ -3,6 +3,7 @@
 }
 .projects-text {
     text-align: left;
+    margin-bottom: 5%;
 }
 .ind-project-div {
     display: flex;
