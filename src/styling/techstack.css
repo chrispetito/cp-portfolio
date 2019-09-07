@@ -1,0 +1,21 @@
+.tech-stack-title {
+    text-align: left;
+}
+.tech-stack-text {
+    text-align: left;
+}
+.tech-badge-div {
+    border: 1px solid red;
+    display: flex;
+}
+.ind-tech-badge {
+    border: 1px solid blue;
+    /* width: 100px; */
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+}
+.ind-tech-badge p {
+    margin: 0;
+    margin-left: 5px;
+}

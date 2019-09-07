@@ -3,6 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import NavBar from "./components/NavBar";
 import AboutMe from "./components/AboutMe";
+import TechStack from "./components/TechStack";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
     <NavBar />
     <div className='page-content'>
     <AboutMe />
+    <TechStack />
     </div>
     </div>
   );
