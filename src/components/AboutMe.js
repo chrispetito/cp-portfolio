@@ -21,7 +21,7 @@ class AboutMe extends React.Component {
           >
             Lambda School
           </a>
-          . I have studies technologies such as HTML, CSS, JavaScript, ReactJS,
+          . I have studied and used technologies such as HTML, CSS, JavaScript, ReactJS,
           Node.js, Express.js, and more.
         </p>
         <p className="about-me-text">
