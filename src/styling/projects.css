@@ -13,6 +13,12 @@
     height: 20%;
     border-radius: 5px;
 }
+.project-img-alt {
+    width: 20%;
+    height: 20%;
+    border-radius: 5px;
+    border: 1px solid #c4c4c4;
+}
 .ind-project-title {
     font-weight: bold;
 }
