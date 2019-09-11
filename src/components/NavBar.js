@@ -55,7 +55,7 @@ class NavBar extends React.Component {
               </NavItem>
               <NavItem>
                 <NavLink
-                  href="https://www.dropbox.com/s/w8y5akne7wixia1/Chris%20Petito%20Resume.pdf?dl=0"
+                  href="https://www.dropbox.com/s/d44jm9qkz8ydtu2/Chris%20Petito%20Resume.pdf?dl=0"
                   target="_onblank"
                 >
                   <i id='nav-icon' className="fas fa-file"></i>Resume
