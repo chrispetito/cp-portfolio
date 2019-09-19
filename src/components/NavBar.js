@@ -31,7 +31,7 @@ class NavBar extends React.Component {
             <p className="cp-title">Chris Petito</p>
           </div>
 
-          <NavbarToggler onClick={this.toggle} />
+          <NavbarToggler onClick={this.toggle} className='navbar-dark' />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>

@@ -41,3 +41,9 @@
 .ind-link {
     padding: 5px 20px 5px 0;
 }
+div.projects-card.card {
+    width: 100%;
+    background: #f8f8f8;
+    display: flex;
+    align-items: center;
+}

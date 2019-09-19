@@ -13,7 +13,8 @@ class Projects extends React.Component {
 
   render() {
     return (
-      <Card>
+      <Card className='projects-card'>
+      <div className='card-content'>
         <h3 className="projects-title">Projects</h3>
         <p className="projects-text">
           Below are a few of the projects that I am proud to have worked on. A
@@ -154,7 +155,7 @@ class Projects extends React.Component {
               </div>
             </div>
           </div>
-
+          </div>
       </Card>
     );
   }

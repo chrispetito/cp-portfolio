@@ -1,16 +1,14 @@
 div.card {
     display: flex;
     justify-content: center;
-    padding: 12px 15px;
+    padding: 30px 15px;
     border: none;
     border-radius: 0;
 }
 div.about-me-card.card{
     width: 100%;
-    color: white;
-    background: #4f4f4f;
+    background: #f8f8f8;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 .card-content {
