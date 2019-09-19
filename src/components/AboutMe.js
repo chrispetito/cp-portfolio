@@ -9,7 +9,8 @@ class AboutMe extends React.Component {
   }
   render() {
     return (
-      <Card>
+      <Card className='about-me-card'>
+      <div className='card-content'>
         <h3 className="about-me-title">About Me</h3>
         <p className="about-me-text">
           I am full stack web developer completing the Full Stack Web
@@ -37,6 +38,7 @@ class AboutMe extends React.Component {
           <a href={"mailto:christopherpetito@gmail.com"}>here</a>. Thanks for
           stopping by, and I look forward to hearing from you!
         </p>
+        </div>
       </Card>
     );
   }
