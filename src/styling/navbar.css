@@ -18,6 +18,8 @@
     margin: 0;
     font-size: 20px;
     font-family: 'Lato', sans-serif;
+    color: white;
+    font-weight: bold;
 }
 .rs-navbar {
     width: 100%;
@@ -41,4 +43,8 @@ a.nav-link {
     /* border: 1px solid blue ; */
     padding: 0.5rem 2rem;
     width: 100px;
+    color: white;
+}
+navbar-toggler-icon {
+    color: white;
 }

@@ -9,7 +9,7 @@
     flex-wrap: wrap;
 }
 .ind-tech-badge {
-    border: 1px solid #c4c4c4;
+    border: 1px solid #ffffff;
     /* width: 100px; */
     display: flex;
     align-items: center;
@@ -17,9 +17,20 @@
     margin-right: 10px;
     margin-bottom: 10px;
     border-radius: 3px;
-    color: #6f6f6f
+    color: #ffffff
 }
 .ind-tech-badge p {
     margin: 0;
     margin-left: 7px;
+}
+div.techstack-card.card {
+    width: 100%;
+    color: white;
+    background: #4f4f4f;
+    display: flex;
+    align-items: center;
+}
+.card-content {
+    width: 100%;
+    max-width: 800px;
 }
