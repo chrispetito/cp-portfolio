@@ -47,7 +47,7 @@ class Projects extends React.Component {
               <p className="description">
                 As part of the full stack team, I worked on both the front end
                 and back end for this project. We passed Labs with our
-                submission, and are proud of what we have buit.
+                submission, and are proud of what we have built.
               </p>
               <div className="link-div">
                 <a
@@ -127,7 +127,7 @@ class Projects extends React.Component {
               </p>
               <p className="description">
                 Design Your Life allows users to input different daily
-                activities and give them a happiness and energy score. It then
+                activities and to give those activities an energy and happiness score. It then
                 allows users to view a weekly log to see which activities
                 brought them the most energy and happiness. It is based on the
                 Designing Your Life course at Stanford.
