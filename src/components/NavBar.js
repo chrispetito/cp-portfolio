@@ -8,7 +8,6 @@ import {
   NavLink
 } from "reactstrap";
 import "../styling/navbar.css";
-import favicon from "../assets/cpfavicon.png";
 
 class NavBar extends React.Component {
   constructor(props) {
