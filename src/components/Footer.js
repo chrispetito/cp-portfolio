@@ -1,4 +1,5 @@
 import React from 'react'
+import '../styling/footer.css'
 
 class Footer extends React.Component{
     constructor() {
@@ -8,7 +9,9 @@ class Footer extends React.Component{
     render() {
         return(
             <div className='footer-div'>
-                Footer
+                <i id="nav-icon-footer" className="fab fa-linkedin"></i>
+                <i id="nav-icon-footer" className="fab fa-github"></i>
+                <i id="nav-icon-footer" className="fas fa-file"></i>
             </div>
         )
     }
