@@ -26,10 +26,6 @@ class NavBar extends React.Component {
     return (
       <div>
         <Navbar color="dark" light expand="md" className="rs-navbar">
-          <div className="navbar-title">
-            <p className="cp-title">Chris Petito</p>
-          </div>
-
           <NavbarToggler onClick={this.toggle} className='navbar-dark' />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
@@ -49,15 +45,6 @@ class NavBar extends React.Component {
                   style={{ color: "white" }}
                 >
                   <i id="nav-icon" className="fab fa-github"></i>GitHub
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink
-                  href="https://www.dropbox.com/s/d44jm9qkz8ydtu2/Chris%20Petito%20Resume.pdf?dl=0"
-                  target="_onblank"
-                  style={{ color: "white" }}
-                >
-                  <i id="nav-icon" className="fas fa-file"></i>Resume
                 </NavLink>
               </NavItem>
             </Nav>
