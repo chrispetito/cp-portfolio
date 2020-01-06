@@ -5,6 +5,10 @@ div.card {
     border: none;
     border-radius: 0;
 }
+div.card a {
+    color: #999999;
+    font-weight: bold;
+}
 div.about-me-card.card{
     width: 100%;
     background: #4C515D;
