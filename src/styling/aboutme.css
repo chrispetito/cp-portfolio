@@ -7,18 +7,26 @@ div.card {
 }
 div.about-me-card.card{
     width: 100%;
-    background: #2E2E2E;
+    background: #4C515D;
     color: white;
     display: flex;
     align-items: center;
+    padding: 2rem 15px 7rem 15px;
 }
 .card-content {
     width: 100%;
     max-width: 800px;
 }
+.about-me-name {
+    display: flex;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-family: 'Lato', sans-serif;
+}
 .about-me-title {
     display: flex;
     justify-content: flex-start;
+    margin-bottom: 2rem; 
 }
 .about-me-text {
     text-align: left;
