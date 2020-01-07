@@ -3,7 +3,7 @@
 }
 .projects-text {
     text-align: left;
-    margin-bottom: 5%;
+    margin-bottom: 3rem;
 }
 .ind-project-div {
     display: flex;
@@ -43,7 +43,7 @@
 }
 div.projects-card.card {
     width: 100%;
-    background: #f8f8f8;
+    background: #ffffff;
     display: flex;
     align-items: center;
 }

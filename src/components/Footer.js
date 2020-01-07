@@ -15,9 +15,6 @@ class Footer extends React.Component {
         <a href="https://github.com/chrispetito" target="_onblank">
           <i id="nav-icon-footer" className="fab fa-github"></i>
         </a>
-        <a href="https://www.dropbox.com/s/d44jm9qkz8ydtu2/Chris%20Petito%20Resume.pdf?dl=0" target="_onblank">
-          <i id="nav-icon-footer" className="fas fa-file"></i>
-        </a>
       </div>
     );
   }
