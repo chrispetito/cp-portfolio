@@ -30,8 +30,13 @@ div.about-me-card.card{
 .about-me-title {
     display: flex;
     justify-content: flex-start;
-    margin-bottom: 2rem; 
+    margin-bottom: 1rem; 
 }
 .about-me-text {
     text-align: left;
+}
+.about-me-dev {
+    display: flex;
+    margin-bottom: 1rem;
+    color: #c4c4c4
 }
