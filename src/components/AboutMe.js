@@ -11,7 +11,7 @@ class AboutMe extends React.Component {
     return (
       <Card className="about-me-card">
         <div className="card-content">
-          <h1 className='about-me-name'>Chris Petito</h1>
+          <h1 className='about-me-name'>* Chris Petito</h1>
           <h2 className='about-me-dev'>Full Stack Web Developer</h2>
           <h4 className="about-me-title">About Me</h4>
           <p className="about-me-text">
